@@ -1,0 +1,110 @@
+:root {
+    --forest-green:#344e41;
+    --sage: #a3b18a;
+    --cream: #eae6e0;
+    --dark-green: #111d13;
+    --white: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(var(--white), var(--light-teal), var(--teal));
+    font-family: 'Open Sans', sans-serif;    
+} */
+
+/* media queries */
+/* Mobile Device */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    li a {
+        display: none;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/* HEADER */
+.logo-nav-bar {
+    
+}
+
+.pm-logo {
+    width: 250px;
+}
+header {
+    background-color: var(--cream);
+    font-family: "Dosis", sans-serif; 
+    
+}
+ 
+.nav-list {
+    display: inline-block;
+    margin: 0 70px; 
+    padding-bottom: 10px;
+    
+}
+
+li a {
+
+    text-decoration: none;
+    color: var(--dark-green);
+}
+
+.login {
+    display:block;
+    position: absolute;
+    top: 55px;
+    right: 25px;
+    text-decoration: none;
+    color: var(--dark-green)
+
+}
+
+.fa-bars, .fa-solid {
+    display:block;
+    position: absolute;
+    top: 75px;
+    right:65px;
+    color: var(--sage)
+
+}
+
+
+/* unvisited link */
+a:link {
+    color:var(--dark-green)   
+ }
+
+  /* visited link */
+a:visited {
+    color: var(--forest-green);
+
+}
+
+ /* mouse over link */
+a:hover {
+    font-weight:bold;
+    color:var(--sage)  
+}
+
+ /* selected link */
+a:active {
+    font-weight:bold;
+    color: var(--forest-green);
+    background-color: var(--sage);  
+}
+
+
+
+
+
+

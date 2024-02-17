@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+
+<!-- External CSS: link your stylesheet here, nested in the headtag.-->
+<link rel="stylesheet" type="text/css" href="./public/styles/style.css">  
+
+<!-- JavaScript file-->
+
+<script defer src="./public/scripts.js"></script>
+
+<!--Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+<!--Font Awesome Icons-->
+<script src="https://kit.fontawesome.com/e5244a0185.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="header">
+  
+        <header>
+            <nav>
+            
+                <a href=index.html><img src="./public/images/Postpartum Momma Logo.png" class="pm-logo"
+            alt="postpartum-momma-logo"></a>
+
+            <!--Clicking this link will take you to the "admin" page -->
+            <a class= "login" href="login.html">LOGIN/SIGN UP</a>
     
+                <ul>
+                    <!--Clicking this link will take you to the "home" page -->
+                    <li class=" nav-list"><a href=index.html>HOME </a></li>
+                    <!--Clicking this link will take you to the "about" page -->
+                    <li class=" nav-list"><a href=about.html>MEET THE TEAM</a></li>
+                    <!--Clicking this link will take you to the "momma" page -->
+                    <li class=" nav-list"><a href=momma.html>FOR MOMMAS</a></li>
+                    <!--Clicking this link will take you to the "baby" page -->
+                    <li class=" nav-list"><a href=baby.html>FOR BABY</a></li>
+
+                </ul>
+            </nav>
+          
+            <i class="fa-solid fa-bars"></i>
+        </header>
+    </div>
 </body>
 </html>
