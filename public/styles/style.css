@@ -12,14 +12,16 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     width: 100%;
     margin: 0;
-    background-image: linear-gradient(var(--white), var(--light-teal), var(--teal));
+    background-image: linear-gradient(var(--cream), var(--sage), var(--forest-green));
     font-family: 'Open Sans', sans-serif;    
-} */
+}
 
-/* media queries */
+
+
+/* MEDIA QUERIES */
 /* Mobile Device */
 @media screen and (min-width: 320px) and (max-width: 768px) {
     li a {
@@ -33,13 +35,10 @@
 }
 
 /* HEADER */
-.logo-nav-bar {
-    
-}
-
 .pm-logo {
     width: 250px;
 }
+
 header {
     background-color: var(--cream);
     font-family: "Dosis", sans-serif; 
@@ -48,7 +47,7 @@ header {
  
 .nav-list {
     display: inline-block;
-    margin: 0 70px; 
+    margin: 0 110px; 
     padding-bottom: 10px;
     
 }
@@ -78,6 +77,34 @@ li a {
 
 }
 
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--forest-green);
+    width: 900px;
+}
+
+
+.postpartum-momma-footer-logo {
+    width: 180px;
+    clip-path: circle(50% at 50% 50%);
+    position:relative;
+    bottom:30px;
+    left: 670px;
+}
+
+.footer-text {
+    font-family: "Dosis", sans-serif;
+    
+    
+}
+
+/* HOME PAGE */
+.anaidys-photo {
+    width:
+    
+}
 
 /* unvisited link */
 a:link {
