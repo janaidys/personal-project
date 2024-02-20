@@ -15,7 +15,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-image: linear-gradient(var(--cream), var(--sage), var(--forest-green));
+    background-color: var(--sage);
     font-family: 'Open Sans', sans-serif;    
 }
 
@@ -42,6 +42,7 @@ body {
 header {
     background-color: var(--cream);
     font-family: "Dosis", sans-serif; 
+    border-bottom: solid 2px var(--forest-green);
     
 }
  
@@ -83,6 +84,7 @@ li a {
 .footer {
     background-color: var(--forest-green);
     width: 900px;
+    border-top: solid 2px var(--cream);
 }
 
 
@@ -102,9 +104,75 @@ li a {
 
 /* HOME PAGE */
 .anaidys-photo {
-    width:
-    
+    width: 150px;
+    clip-path: circle(40% at 50% 50%);
 }
+
+.tatiana-photo {
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.mayreny-photo {
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.jasmine-photo {
+    width: 150px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.origin-story {
+    border:solid 3px var(--forest-green);
+    border-radius: 15px;
+    background-color:var(--cream);
+    margin: 30px; 
+    padding: 20px;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    border:solid 3px var(--forest-green);
+    border-radius: 15px;
+    background-color:var(--cream);
+    margin: 30px;
+    padding: 20px;
+}
+
+.name-photo {
+    display: flex;
+    flex-direction: column;
+    color:#344e41
+
+}
+
+.info {
+    position: relative;
+    top: 75px;
+
+
+}
+.team-blurb {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.beliefs {
+    border:solid 3px var(--forest-green);
+    border-radius: 15px;
+    background-color:var(--cream);
+    margin: 30px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #111d13;
+}
+
 
 /* unvisited link */
 a:link {
