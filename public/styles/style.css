@@ -15,7 +15,7 @@
 body {
     width: 100%;
     margin: 0;
-    background-color: var(--sage);
+    background-image: linear-gradient(var(--cream), var(--sage));
     font-family: 'Open Sans', sans-serif;    
 }
 
@@ -83,32 +83,37 @@ li a {
 
 .footer {
     background-color: var(--forest-green);
-    width: 900px;
+    width: 100%;
     border-top: solid 2px var(--cream);
 }
 
-
 .postpartum-momma-footer-logo {
-    width: 200px;
-    clip-path: circle(50% at 50% 50%);
+    width: 175px;
+    /* clip-path: circle(50% at 50% 50%); */
     position:relative;
     bottom:15px;
-    left: 680px;
+    left:  40px;
 }
 
 .footer-quote {
     position: relative;
-    top: 150px;
-    text-align: center;
-    color: var(--sage)
+    bottom: 20px;
+    left: 150px;
+    color: var(--sage);
 
 }
 
+.row-text-footer {
+    display: flex; 
+    justify-content: space-evenly;
+    padding-top: 50px;
 
+}
 .footer-text {
     font-family: "Dosis", sans-serif;
-    position
-    
+    display: inline-block;
+    color: var(--sage);
+    text-align: center; 
     
 }
 
