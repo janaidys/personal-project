@@ -84,6 +84,7 @@ li a {
 .footer {
     background-color: var(--forest-green);
     width: 100%;
+    margin:
     border-top: solid 2px var(--cream);
 }
 
@@ -96,7 +97,8 @@ li a {
 }
 
 .footer-quote {
-    font-family: "Dosis", sans-serif; 
+    font-family: "Ephesis", cursive; 
+    font-size: 1.8rem;
     position: relative;
     bottom: 20px;
     left: 150px;
@@ -117,6 +119,8 @@ li a {
     text-align: center; 
     
 }
+
+
 
 /* HOME PAGE */
 .anaidys-photo {
@@ -200,7 +204,7 @@ li a {
     border-radius: 15px;
     background-color:var(--cream);
     margin: 30px;
-    padding: 20px;
+    padding: 10px;
 
 }
 
