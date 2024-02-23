@@ -96,6 +96,7 @@ li a {
 }
 
 .footer-quote {
+    font-family: "Dosis", sans-serif; 
     position: relative;
     bottom: 20px;
     left: 150px;
@@ -146,6 +147,11 @@ li a {
     padding: 20px;
 }
 
+.origin-text {
+    padding: 25px;
+    font-family: "Dosis", sans-serif; 
+}
+
 .about-us {
     display: flex;
     flex-direction: column;
@@ -154,19 +160,24 @@ li a {
     background-color:var(--cream);
     margin: 30px;
     padding: 20px;
+    font-family: "Dosis", sans-serif; 
 }
 
 .tatiana-name-photo {
     color:#344e41;
     position: relative;
     right: 20px;
+    font-family: "Ephesis", cursive;
+    font-size: 1.5rem;
 }
     
 
 .name-photo {
     display: flex;
     flex-direction: column;
-    color:#344e41
+    color:#344e41;
+    font-family: "Ephesis", cursive;
+    font-size: 1.5rem;
 
 }
 
@@ -183,16 +194,37 @@ li a {
 }
 
 .beliefs {
+    display:flex;
+    flex-direction: column;
     border:solid 3px var(--forest-green);
     border-radius: 15px;
     background-color:var(--cream);
     margin: 30px;
     padding: 20px;
+
 }
 
+.beliefs-row {
+    display: flex; 
+    
+    padding: 35px;
+    
+}
+
+.beliefs-text {
+    text-align: center;
+    font-family: "Dosis", sans-serif; 
+
+    
+}
+.beliefs-icons {
+    color: var(--forest-green)
+}
 h2 {
     text-align: center;
     color: #111d13;
+    font-family: "Ephesis", cursive;
+    font-size: 2rem;
 }
 
 
