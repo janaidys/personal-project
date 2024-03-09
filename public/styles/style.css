@@ -20,21 +20,8 @@ body {
 }
 
 
-
-/* MEDIA QUERIES */
-/* Mobile Device */
-@media screen and (min-width: 320px) and (max-width: 768px) {
-    li a {
-        display: none;
-    }
-}
-
-/* Laptop */
-@media screen and (min-width: 768px) and (max-width: 1024px){
-
-}
-
-/* HEADER */
+/* --------------------------------------------------
+[HEADER] */
 .pm-logo {
     width: 250px;
 }
@@ -80,7 +67,8 @@ li a {
 }
 
 
-/* FOOTER */
+/* --------------------------------------------------
+[FOOTER] */
 
 .footer {
     background-color: var(--forest-green);
@@ -123,7 +111,10 @@ li a {
 
 
 
-/* HOME PAGE */
+/* --------------------------------------------------
+[HOME PAGE */
+
+/* [MEET THE TEAM CONTAINER] */
 .anaidys-photo {
     width: 150px;
     clip-path: circle(40% at 50% 50%);
@@ -139,11 +130,37 @@ li a {
     clip-path: circle(45% at 50% 50%);
 }
 
-.jasmine-photo {
-    width: 150px;
-    clip-path: circle(50% at 50% 50%);
+.tatiana-name-photo {
+  color:#344e41;
+  position: relative;
+  right: 20px;
+  font-family: "Ephesis", cursive;
+  font-size: 1.5rem;
+}
+  
+
+.name-photo {
+  display: flex;
+  flex-direction: column;
+  color:#344e41;
+  font-family: "Ephesis", cursive;
+  font-size: 1.5rem;
+
 }
 
+.info {
+  position: relative;
+  top: 75px;
+
+
+}
+.team-blurb {
+  display: flex;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* [HOW WE STARTED CONTAINER] */
 .origin-story {
     border:solid 3px var(--forest-green);
     border-radius: 15px;
@@ -157,6 +174,7 @@ li a {
     font-family: "Dosis", sans-serif; 
 }
 
+/* [ABOUT US CONTAINER] */
 .about-us {
     display: flex;
     flex-direction: column;
@@ -168,36 +186,9 @@ li a {
     font-family: "Dosis", sans-serif; 
 }
 
-.tatiana-name-photo {
-    color:#344e41;
-    position: relative;
-    right: 20px;
-    font-family: "Ephesis", cursive;
-    font-size: 1.5rem;
-}
-    
-
-.name-photo {
-    display: flex;
-    flex-direction: column;
-    color:#344e41;
-    font-family: "Ephesis", cursive;
-    font-size: 1.5rem;
-
-}
-
-.info {
-    position: relative;
-    top: 75px;
 
 
-}
-.team-blurb {
-    display: flex;
-    text-align: center;
-    padding-top: 40px;
-}
-
+/* [BELIEFS CONTAINER] */
 .beliefs {
     display:flex;
     flex-direction: column;
@@ -225,6 +216,7 @@ li a {
 .beliefs-icons {
     color: var(--forest-green)
 }
+
 h2 {
     text-align: center;
     color: #111d13;
@@ -232,7 +224,8 @@ h2 {
     font-size: 2rem;
 }
 
-
+/* -------------------------------------------------
+[LINK STYLING} */
 /* unvisited link */
 a:link {
     color:var(--dark-green)   
@@ -257,13 +250,14 @@ a:active {
     background-color: var(--sage);  
 }
 
+/* --------------------------------------------------
+[LOGIN PAGE} */
 
 label {
   display: block;
   margin: 0;
 }
 
-/*---------------------------------------------*/
 button {
 	outline: none !important;
 	border: none;
@@ -274,12 +268,7 @@ button:hover {
 	cursor: pointer;
 }
 
-
-/*//////////////////////////////////////////////////////////////////
-[ utility ]*/
-
-/*==================================================================
-[ Text ]*/
+/* [TEXT STYLING] */
 .txt1 {
   font-family: "Dosis", sans-serif;
   font-size: 13px;
@@ -302,8 +291,8 @@ button:hover {
     padding-top: 40px;
 }
 
-/*//////////////////////////////////////////////////////////////////
-[ login ]*/
+/*----------------------------------------------------
+[ LOGIN CONTAINER]*/
 .limiter {
   width: 100%;
   margin: 0 auto;
@@ -331,8 +320,8 @@ button:hover {
 
 }
 
-/*==================================================================
-[ login more ]*/
+/*-----------------------------------------------------
+[ LOGIN PHOTO ]*/
 .login-more {
   width: calc(100% - 560px);
   background-repeat: no-repeat;
@@ -355,8 +344,8 @@ button:hover {
 
 
 
-/*==================================================================
-[ Form ]*/
+/*-----------------------------------------------------
+[ FORM]*/
 
 .login-form {
   width: 560px;
@@ -379,7 +368,7 @@ button:hover {
 
 
 /*------------------------------------------------------------------
-[ Input ]*/
+[ INPUT ]*/
 
 .wrap-input {
   display: flex;
@@ -424,7 +413,6 @@ input.input {
 
 }
 
-/*---------------------------------------------*/
 
 .focus-input {
   position: absolute;
@@ -474,8 +462,8 @@ input.input {
   font-size: 13px;
 }
 
-/*==================================================================
-[ Restyle Checkbox ]*/
+/*----------------------------------------------------
+[ CHECKBOX STYLING ]*/
 
 .input-checkbox {
   display: none;
@@ -524,7 +512,7 @@ input.input {
 
 
 /*------------------------------------------------------------------
-[ Button ]*/
+[ BUTTON ]*/
 .container-login-form-btn {
   width: 100%;
   display: flex;
@@ -558,3 +546,92 @@ input.input {
   background: var(--sage);
 }
 
+/* -------------------------------------------------
+[FOR MOMMAS HOMEPAGE PAGE] */
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-main {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;  
+}
+
+.container-main::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(118, 116, 116, 0.65);
+}
+
+.wrap-main {
+  width: 390px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.main-quote {
+  font-family: "Ephesis", cursive; 
+  font-size: 35px;
+  color: var(--white);
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------[MEDIA QUERIES] */
+
+/* [MOBILE DEVICE]] */
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  li a {
+      display: none;
+  }
+}
+
+/* [LAPTOP] */
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
