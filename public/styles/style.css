@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    /* background-color: var(--cream); */
+    background-color: var(--cream);
     font-family: "Dosis", sans-serif; 
     border-bottom: solid 2px var(--forest-green);
     width: 100%;
