@@ -22,15 +22,16 @@ body {
 
 /* --------------------------------------------------
 [HEADER] */
+
 .pm-logo {
     width: 250px;
 }
 
 header {
-    background-color: var(--cream);
+    /* background-color: var(--cream); */
     font-family: "Dosis", sans-serif; 
     border-bottom: solid 2px var(--forest-green);
-    width: 150vh;
+    width: 100%;
     
 }
  
@@ -72,7 +73,7 @@ li a {
 
 .footer {
     background-color: var(--forest-green);
-    width: 150vh;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -547,7 +548,7 @@ input.input {
 }
 
 /* -------------------------------------------------
-[FOR MOMMAS HOMEPAGE PAGE] */
+[FOR MOMMAS/BABY HOMEPAGE PAGE] */
 
 .limiter {
   width: 100%;
