@@ -729,25 +729,26 @@ h3 {
   font-family: "Ephesis", cursive;
 }
 
-.container1-texts {
-  display: flex;
-  flex-direction: column; 
-  justify-content: flex-start;
-  
-
-}
-
 .sids {
   font-size: 20px;
 }
 
 .sleeping-luca { 
-  width: 500px;
+  width: 400px;
   border-radius: 15px;
+  
 }
 
+.container1-texts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
 
+}
 
+.abcs {
+
+}
 
 
 
