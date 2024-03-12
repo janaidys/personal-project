@@ -648,6 +648,7 @@ input.input {
 
 .formula { 
   width: 150px;
+  padding-right: 20px;
 }
 
 .formula-info { 
@@ -691,14 +692,59 @@ h3 {
 }
 
 
+/* --------------------------------------------------
+[BABY SUB-PAGES */
+
+/* PLAYTIME */
+.image { 
+  padding-right: 20px;
+}
+
+.playkit1 {
+  width: 250px;
+  border-radius: 15px;
+}
 
 
+.playkit2 {
+  width: 200px;
+  border-radius: 15px;
+}
 
+/* [SLEEP] */
 
+.first-letter {
+  font-size: 100px; 
+  color: var(--forest-green);
+}
 
+.the-rest {
+  font-size: 80px;
+  color: var(--sage);
+}
 
+.inbetween-text {
+  font-size: 70px; 
+  color: var(--forest-green);
+  font-family: "Ephesis", cursive;
+}
 
+.container1-texts {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  
 
+}
+
+.sids {
+  font-size: 20px;
+}
+
+.sleeping-luca { 
+  width: 500px;
+  border-radius: 15px;
+}
 
 
 
