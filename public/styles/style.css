@@ -746,7 +746,14 @@ h3 {
 
 }
 
-.abcs {
+.routine {
+  display:flex; 
+  justify-content:center;
+  padding-top: 40px;
+}
+.bedtime-routine {
+ width: 500px;
+
 
 }
 
